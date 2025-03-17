@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Modern Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Modern Site</h1>
+            <nav class="nav">
+                <a href="index.html">Anasayfa</a>
+                <a href="hakkimda.html">Hakkımızda</a>
+                <a href="blog.html">Blog</a>
+                <a href="iletisim.html">İletişim</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- İletişim İçerik -->
+    <section class="contact">
+        <div class="container">
+            <h2>Bize Ulaşın</h2>
+
+            <!-- İletişim Formu -->
+            <form id="contactForm">
+                <label for="name">Adınız:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">E-posta Adresiniz:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Mesajınız:</label><br>
+                <textarea id="message" name="message" rows="5" cols="50" required></textarea><br><br>
+
+                <button type="submit">Gönder</button>
+            </form>
+
+            <!-- Harita -->
+            <div class="map">
+                <h3>Konumumuz</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.559405941915!2d28.97537581536219!3d41.01513727929813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9d2e7b40e87%3A0x6d9d5f5b2b0d5a8b!2sGalata%20Kulesi!5e0!3m2!1str!2str!4v1698500000000!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <!-- Sosyal Medya Bağlantıları -->
+            <div class="social-links">
+                <h3>Bizi Takip Edin</h3>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Modern Site</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
